@@ -1,0 +1,65 @@
+{
+  "title": "بستان الحكايا وازرعها",
+  "intro": "كل قنواتنا في مكان واحد — تابعنا على المنصة اللي تحبها.",
+  "closing": "حلقة جديدة كل يوم على بستان الحكايا بإذن الله.",
+  "channels": [
+    {
+      "name": "بستان الحكايا",
+      "tagline": "قصص أطفال وسيرة نبوية — حلقة جديدة كل يوم",
+      "photo": "img/fox.jpg",
+      "alt": "شعار بستان الحكايا (الثعلب)",
+      "links": [
+        {
+          "label": "يوتيوب",
+          "note": "الحلقات الكاملة",
+          "href": "https://www.youtube.com/@BustanAlHakaya",
+          "live": true
+        },
+        {
+          "label": "إنستغرام",
+          "note": "مقاطع قصيرة يومية",
+          "href": "https://www.instagram.com/bustanalhakaya/",
+          "live": true
+        },
+        {
+          "label": "تيك توك",
+          "note": "مقاطع قصيرة يومية",
+          "href": "https://www.tiktok.com/@bustanalhakaya",
+          "live": true
+        },
+        {
+          "label": "فيسبوك",
+          "note": "الصفحة الرسمية",
+          "href": "https://www.facebook.com/share/1FVv1NHXJX/",
+          "live": true
+        }
+      ]
+    },
+    {
+      "name": "ازرعها",
+      "tagline": "زراعة منزلية بسيطة — من البذرة للحصاد",
+      "photo": "img/agri.jpg",
+      "alt": "شتلة جرجير",
+      "links": [
+        {
+          "label": "يوتيوب",
+          "note": "الحلقات الكاملة",
+          "href": "https://www.youtube.com/@Ezra3ha",
+          "live": true
+        },
+        {
+          "label": "تيك توك",
+          "note": "قريبًا",
+          "href": "",
+          "live": false
+        },
+        {
+          "label": "فيسبوك",
+          "note": "الصفحة الرسمية",
+          "href": "https://www.facebook.com/share/1MmFrBLbnW/",
+          "live": true
+        }
+      ]
+    }
+  ]
+}
