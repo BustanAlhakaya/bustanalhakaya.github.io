@@ -1,0 +1,24 @@
+:root { --bg:#fdfcfb; --ink:#4d3533; --body:#101113; --gold:#d4a53f; --navy1:#1c2b4a; --navy2:#24365c; --cream:#f5eeda; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--body); font-family:"Noto Sans Arabic","Noto Naskh Arabic",system-ui,-apple-system,"Segoe UI",sans-serif; font-size:16px; }
+.page { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+h1 { font-family: Georgia,"Noto Naskh Arabic",serif; font-weight:400; font-size:36px; color:var(--ink); margin:0 0 12px; }
+h2 { font-family: Georgia,"Noto Naskh Arabic",serif; font-weight:400; font-size:21px; color:var(--ink); margin:0; }
+.intro, .closing { color:var(--ink); font-size:14px; font-weight:350; margin:0 0 8px; }
+.closing { margin-top:36px; }
+.lp-channel { display:flex; flex-direction:column; gap:12px; }
+.lp-photo { width:88px; height:88px; border-radius:50%; object-fit:cover; border:3px solid var(--gold); }
+.lp-tagline { margin:0; font-size:15px; color:var(--ink); opacity:.85; }
+.lp-links { display:flex; flex-direction:column; gap:10px; }
+.lp-btn { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 18px; border-radius:14px; background:linear-gradient(135deg,var(--navy1),var(--navy2)); color:var(--cream); text-decoration:none; border:1px solid #d4a53f55; transition:transform .15s ease; }
+.lp-btn:hover { transform:translateY(-1px); }
+.lp-btn-label { font-size:17px; font-weight:700; }
+.lp-btn-note { font-size:13px; opacity:.75; }
+.lp-btn-soon { opacity:.45; cursor:default; }
+.lp-btn-soon:hover { transform:none; }
+.lp-btn:focus-visible { outline:3px solid var(--gold); outline-offset:3px; }
+.lp-btn:active { transform:scale(.99); }
+.lp-channel h2 { margin-top:36px; }
+.lp-photo { align-self:flex-start; }
+@media (prefers-reduced-motion: reduce) { .lp-btn { transition:none; } }
+@media (max-width:420px) { h1 { font-size:30px; } .page { padding-top:36px; } }
